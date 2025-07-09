@@ -59,7 +59,6 @@ class MorseCodeSingleButton extends JFrame implements KeyListener {
         morseCodeMapLatin.put("-..-", "X");
         morseCodeMapLatin.put("-.--", "Y");
         morseCodeMapLatin.put("--..", "Z");
-        morseCodeMapLatin.put(" ", " "); // Пробел
 
         // Заполнение карты Морзе для кириллицы
         morseCodeMapCyrillic.put(".-", "А");
@@ -90,8 +89,8 @@ class MorseCodeSingleButton extends JFrame implements KeyListener {
         morseCodeMapCyrillic.put("--.-", "Щ");
         morseCodeMapCyrillic.put(".--.-.", "Ъ");
         morseCodeMapCyrillic.put("-.--", "Ы");
-        morseCodeMapCyrillic.put("..-..", "Ь");
-        morseCodeMapCyrillic.put("-.-.", "Э");
+        morseCodeMapCyrillic.put("-..-", "Ь");
+        morseCodeMapCyrillic.put("..-..", "Э");
         morseCodeMapCyrillic.put("..--", "Ю");
         morseCodeMapCyrillic.put(".-.-", "Я");
     }
